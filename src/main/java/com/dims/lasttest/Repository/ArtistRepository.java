@@ -11,7 +11,7 @@ public class ArtistRepository {
 
     private final String USER = "root";
 
-    private final String PASSWORD = "jgnw3quev";
+    private final String PASSWORD = "123";
 
     private Connection conn = null;
 
@@ -74,7 +74,7 @@ public void saveArtist(Artist artist1) throws SQLException {
     public void deleteArtist(int artistId) throws SQLException {
         conn = DriverManager.getConnection(URL, USER, PASSWORD);
         stm = conn.createStatement();
-        String query = "DELETE FROM artist WHERE id = " + artistId;
+        String query = "DELETE FROM artist WHERE id = " + artistId ;
         stm.executeUpdate(query);
     }
 

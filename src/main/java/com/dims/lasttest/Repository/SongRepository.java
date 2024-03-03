@@ -11,7 +11,7 @@ public class SongRepository {
 
     private final String USER = "root";
 
-    private final String PASSWORD = "jgnw3quev";
+    private final String PASSWORD = "123";
 
     private Connection conn = null;
 

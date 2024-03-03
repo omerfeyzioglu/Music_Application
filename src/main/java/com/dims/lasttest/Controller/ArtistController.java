@@ -4,13 +4,12 @@ import com.dims.lasttest.Model.Artist;
 import com.dims.lasttest.MusicApplication;
 import com.dims.lasttest.Repository.ArtistRepository;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -24,6 +23,7 @@ public class ArtistController {
     private Button btn1, btn2, btn3, btn4, btn5, btn6;
     @FXML
     private TextField txt1, txt2, txt3, txt4;
+
 
     @FXML
     void add(ActionEvent event) throws Exception {
@@ -119,5 +119,8 @@ public class ArtistController {
         }
 
 
-    }
+
+
+
+}
 
